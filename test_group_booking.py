@@ -1,3 +1,6 @@
+from group_booking import book_group
+
+
 def test_single_adult():
     result = book_group([("Anna Brown", 20)], "day")
     assert "1 tickets" in result
